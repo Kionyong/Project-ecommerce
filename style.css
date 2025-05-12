@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navbar*/
+#nav-bar{
+    width:100%;
+    height: 65px;
+    background: #eee;
+    display: flex;
+}
+#nav-bar h1{
+    width:30%;
+    height:100%;
+    text-align: end;
+    padding-top:20px;
+    font-family: sans-serif;
+    font-size:25px;
+    font-weight: bold;
+    color: #222;
+}
+#nav-bar nav{
+    width:70%;
+    height:100%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    font-size:17px;
+    padding: 23px;
+    color:#222;
+    width:120px;
+    text-decoration: none;
+}
+/*slide*/
+#slide{
+    width: 70%;
+    height:450px;
+    background: #eee;
+    margin:1px auto;
+    border: 1px solid #222;
+}
+#slide img{
+    width:100%;
+    height: 100%;
+}
+/*h1 text*/
+#h1{
+    text-align: center;
+    margin-top:40px;
+    font-family: sans-serif;
+    font-size:30px;
+    font-weight: bold;
+}
+/*class layout */
+.layout{
+    width:65%;
+    height:auto;
+    margin:10px auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+/* box*/
+.layout .box{
+    width:40%;
+    height:350px;
+    background: #eee;
+    margin-top:20px;
+    border: 1px solid #222;
+}
+.box h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 20px;
+    color:#222;
+}
+.box p{
+    font-family: sans-serif;
+    font-size: 15px;
+    width:90%;
+    margin: 5px 20px;
+    color:#222;
+}
+.box img{
+    height: 50%;
+}
+/*list of logo*/
+.list-drink{
+    flex-wrap: wrap;
+    width:100%;
+    height:100px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list-drink img{
+    width:100px;
+    margin: 20px;
+    height: 50%;
+}
+/*footer*/
+#footer{
+    width:100%;
+    height:170px;
+    background: #222;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+#footer h1{
+    font-family: sans-serif;
+    font-size:15px;
+    color: #fc0606;
+    margin: 20px 20px;
+}
+#footer .footer-text{
+    list-style-type: none;
+}
+.footer-text li{
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.checkout{
+    width:430px;
+    height:90vh;
+    background: #f2eeee;
+    margin-left:73%;
+    display:none;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid #222;
+}
+.checkout .ch-box{
+    width:100%;
+    height: 80%;
+}
+.ch-box #reader-cart{
+    width:100%;
+    height:60px;
+    background: #e6dfdf;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#reader-cart img{
+    width: 50px;
+    height:50px;
+    border: 1px solid #222;
+    border-radius: 30px;
+}
+#reader-cart p{
+    font-family: sans-serif;
+    color: #222;
+}
+#reader-cart #dele-cart{
+    color: #222;
+    font-size: 15px;
+}
+.checkout #ch-result{
+    width: 100%;
+    height: 20%;
+}
+#ch-result{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#ch-result #total{
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#222;
+}
+#ch-result #btn{
+    width:100px;
+    height:40px;
+    font-size:17px;
+    background: #09cf73;
+    border: 1px solid #222;
+    color: #222;
+    box-shadow:0px 1px 0px 0px #222;
+    border-radius: 5px;
+}
+#btn:hover{
+    border: 5px solid #eee;
+}
+/*products*/
+.products{
+    width:50%;
+    height:auto;
+    border:1px solid #222;
+    margin:20px auto;
+}
+.products .box{
+    width:30%;
+    height:300px;
+    background:#eee;
+    float: left;
+    margin:12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #eee;
+}
+.box:hover{
+    box-shadow: 1px 1px 1px  1px #eee;
+    border: 1px solid #eee;
+}
+.box #img{
+    width:80%;
+    height:60%;
+    padding-top:15px;
+}
+.box p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #222;
+    text-align: center;
+    padding:5px;
+}
+.box #add-cart{
+    width: 100px;
+    height:30px;
+    background:#b7b1b1;
+    border-radius: 10px;
+}
