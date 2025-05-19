@@ -47,7 +47,7 @@ function readerCart() {
     checkout.innerHTML = "";
     let total = 0;
     cart.forEach((item, index) => {
-        let price = parseFloat(item.price.replace(',', '.').replace('$', ''));
+       let price = parseFloat(item.price.replace(',', '.').replace('$', ''));
         total += price;
         checkout.innerHTML += `
             <div id="reader-cart">
