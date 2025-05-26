@@ -13,7 +13,7 @@
         <nav>
             <ul>
                 <li><a href="./home.html">Home</a></li>
-                <li><a href="./products.html">Products</a></li>
+                <li><a href="./products.php">Products</a></li>
                 <li><a href="./Aboutus.html">About Us</a></li>
                 <li><a onclick="showHide()">Checkout</a></li>
             </ul>
