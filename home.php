@@ -12,9 +12,9 @@
         <h1>Drinks</h1>
         <nav>
             <ul>
-                <li><a href="./home.html">Home</a></li>
+                <li><a href="./home.php">Home</a></li>
                 <li><a href="./products.php">Products</a></li>
-                <li><a href="./Aboutus.html">About Us</a></li>
+                <li><a href="./Aboutus.php">About Us</a></li>
                 <li><a onclick="showHide()">Checkout</a></li>
             </ul>
         </nav>
