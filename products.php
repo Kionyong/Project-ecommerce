@@ -1,54 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <!-- Navbar -->
-  <div id="nav-bar">
-    <h1>Drinks</h1>
-    <nav>
-      <ul>
-        <li><a href="./home.php">Home</a></li>
-        <li><a href="./products.php">Products</a></li>
-        <li><a href="./Aboutus.php">About Us</a></li>
-        <li><a onclick="showHide()">Checkout</a></li>
-      </ul>
-    </nav>
-  </div>
-
-  <!-- Checkout Sidebar -->
-  <div class="checkout" id="hide-show">
-    <div class="ch-box"></div>
-    <div id="ch-result">
-      <h1 id="total">Total: $0.00</h1>
-      <button type="button" id="btn">Checkout</button>
+    <!--navbar-->
+    <div id="nav-bar">
+        <h1>Drinks</h1>
+        <nav>
+            <ul>
+                <li><a href="./home.php">Home</a></li>
+                <li><a href="./products.php">Products</a></li>
+                <li><a href="./Aboutus.php">About Us</a></li>
+                <li><a onclick="showHide()">Checkout</a></li>
+            </ul>
+        </nav>
     </div>
-  </div>
+    <div class="checkout"  id="hide-show"><!--checkout ABA Paywy-->
+        <div class="ch-box">
 
-  <!-- Page Title -->
-  <h2 class="section-title">PRODUCTS</h2>
-
-  <!-- Products Section -->
-  <div class="products"></div>
-
-  <!-- Footer -->
-  <footer id="footer">
-    <h1>Drinks</h1>
-    <div class="footer-text">
-      <ul>
-        <li>Location: Phnom Penh</li>
-        <li>Phone Number: 094 165 234</li>
-      </ul>
-    </div>
-    <div>
-      <h1>Please help preserve the rights. If you redistribute it, you must be responsible.</h1>
-    </div>
-  </footer>
-
-  <script src="./javascript.js"></script>
+        </div>
+        <div id="ch-result">
+            <h1 id="total">Total:$0.00</h1>
+            <button type="button" id="btn">Checkout</button>
+        </div>
+    </div> <!--navbar-->
+    <h2 style="font-size: 20px;font-family: sans-serif;text-align: center; margin-top:20px;">PRODUCTS</h2>
+    <!--Products-->
+    <div class="products"> </div>
+    <!--footer-->
+    <footer id="footer">
+        <h1>Drinks</h1>
+        <div class="footer-text">
+            <ul>
+                <li>Localtion: Phnom Phen</li>
+                <li>Phone Number: 094 165 234</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Please help preserve the rights. If you redistribute it, you must be responsible.</h1>
+        </div>
+    </footer>
+    <script src="./javascript.js"></script>
 </body>
 </html>
