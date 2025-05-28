@@ -33,7 +33,8 @@ products.forEach((item,index)=>{
             <button type="button" id="add-cart" onclick='addCart(${JSON.stringify(item)})'>Add to Cart</button>
         </div>
     `;
-    document.querySelector('.products').innerHTML=txt;
+    document.querySelector('.products').innerHTML = txt;
+
 });
 
 //add to cart
