@@ -240,3 +240,9 @@ nav ul li a{
     border-radius: 10px;
 }
 /*page register*/
+.ragister{
+    width:400px;
+    height:300px;
+    margin:10% auto;
+    background: #4ea2c1;
+}
