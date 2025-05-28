@@ -210,7 +210,7 @@ nav ul li a{
     height:300px;
     background:#eee;
     float: left;
-    margin:12px;
+    margin:5px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -220,7 +220,7 @@ nav ul li a{
     box-shadow: 1px 1px 1px  1px #eee;
     border: 1px solid #eee;
 }
-.box #img{
+.box .img{
     width:80%;
     height:60%;
     padding-top:15px;

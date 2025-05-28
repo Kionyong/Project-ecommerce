@@ -27,16 +27,14 @@ var txt="";
 products.forEach((item,index)=>{
     txt+=`
         <div class="box">
-            <img id="img" src="${item.img}" alt="">
+            <img class="img" src="${item.img}" alt="">
             <p>${item.proName}</p>
             <p>${item.price}</p>
             <button type="button" id="add-cart" onclick='addCart(${JSON.stringify(item)})'>Add to Cart</button>
         </div>
-    `;
-    document.querySelector('.products').innerHTML = txt;
-
+    `; 
+     document.querySelector('.products').innerHTML = txt; 
 });
-
 //add to cart
 function addCart(product){
     // const product={id,proName,price,img};
