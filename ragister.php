@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ragister</title>
 </head>
-<style>
+<!-- <style>
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background: linear-gradient(120deg,rgb(251, 253, 253), #96e6a1);
@@ -84,7 +84,7 @@
         font-weight: bold;
         margin-top: 10px;
     }
-</style>
+</style> -->
 
 <body>
     <form method="POST" class="ragister">
