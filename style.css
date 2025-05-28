@@ -23,6 +23,7 @@
 #nav-bar nav{
     width:70%;
     height:100%;
+    border: 1px solid #222;
 }
 nav ul{
     list-style-type: none;
