@@ -246,3 +246,9 @@ nav ul li a{
     margin:10% auto;
     background: #4ea2c1;
 }
+.ragister h2{
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#333;
+    text-align: center;
+}
