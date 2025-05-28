@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form id="ragister" method="POST">
+    <form method="POST" class="ragister">
         <h2>Register</h2>
         Username: <input type="text" name="username" required><br><br>
         Password: <input type="password" name="password" required><br><br>
