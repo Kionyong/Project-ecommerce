@@ -28,7 +28,7 @@
     <title>Ragister</title>
 </head>
 <style>
-    body {
+    /* body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background: linear-gradient(120deg,rgb(251, 253, 253), #96e6a1);
         margin: 0;
@@ -37,7 +37,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-    }
+    } */
 
     .ragister {
         background-color: #ffffff;
