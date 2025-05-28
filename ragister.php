@@ -28,7 +28,7 @@
     <title>Ragister</title>
 </head>
 <style>
-    /* body {
+    body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background: linear-gradient(120deg,rgb(251, 253, 253), #96e6a1);
         margin: 0;
@@ -37,7 +37,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-    } */
+    }
 
     .ragister {
         background-color: #ffffff;
@@ -64,7 +64,7 @@
         font-size: 14px;
     }
 
-    .ragister button {
+    .ragister .btnRagister {
         background-color: #4CAF50;
         color: white;
         padding: 10px;
@@ -76,7 +76,7 @@
         transition: background-color 0.3s ease;
     }
 
-    .ragister button:hover {
+    .ragister .btnRagister:hover {
         background-color: #45a049;
     }
 
@@ -96,7 +96,7 @@
             <option value="user">User</option>
             <option value="admin">Admin</option>
         </select><br><br>
-        <button type="submit">Register</button>
+        <button type="submit" class="btnRagister">Register</button>
     </form>
 </body>
 </html>
