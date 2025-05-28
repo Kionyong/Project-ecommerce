@@ -239,3 +239,11 @@ nav ul li a{
     background:#b7b1b1;
     border-radius: 10px;
 }
+/*page register*/
+#ragister{
+    width:400px;
+    height:300px;
+    background: #539ad5;
+    margin: 20px auto;
+    border: 1px solid #222;
+}
