@@ -246,4 +246,5 @@ nav ul li a{
     background: #539ad5;
     margin: 20px auto;
     border: 1px solid #222;
+    box-shadow: 1px 1px 0px #222;
 }

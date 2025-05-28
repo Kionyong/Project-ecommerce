@@ -3,27 +3,22 @@
     include('config.php');
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        $username=trim($_POST["username"]);
+        $password=password_hash($_POST["password"],PASSWORD_DEFAULT);
+        $role=$_POST["role"];
 
+        $sql="INSERT INTO tbusers (username,password,role) VALUES(?,?,?)";
+        $stmt= $conn->prepare($sql);
+        $stmt->bind_param("sss",$username,$password,$role);
+
+        if($stmt->execute()){
+            header("Location: http://localhost:8080/FilePHP/Project-ecommerce/home.php");
+            exit();
+        }else{
+            echo "Register failed. Maybe username already exists.";
+        }
     }
 ?>
-
-<!-- if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = trim($_POST["username"]);
-    $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
-    $role = $_POST["role"]; // 'admin' or 'user'
-
-    $sql = "INSERT INTO users (username, password, role) VALUES (?, ?, ?)";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sss", $username, $password, $role);
-
-    if ($stmt->execute()) {
-        header("Location: https://www.w3schools.com/");
-        exit();
-    } else {
-        echo "Register failed. Maybe username already exists.";
-    }
-
-} -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
