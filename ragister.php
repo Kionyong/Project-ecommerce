@@ -49,7 +49,7 @@
         flex-direction: column;
     }
 
-    .ragister .h2 {
+    .ragister .h3 {
         text-align: center;
         margin-bottom: 20px;
         color: #333;
@@ -88,7 +88,7 @@
 
 <body>
     <form method="POST" class="ragister">
-        <h2 class="h2">Register</h2>
+        <h3 class="h3">Register</h3>
         Username: <input type="text" name="username" required><br><br>
         Password: <input type="password" name="password" required><br><br>
         Role:
