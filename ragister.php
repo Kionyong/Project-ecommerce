@@ -28,9 +28,68 @@
     <title>Ragister</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(120deg,rgb(251, 253, 253), #96e6a1);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .ragister {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ragister .h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .ragister input, .ragister select {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .ragister button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .ragister button:hover {
+        background-color: #45a049;
+    }
+
+    label {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+</style>
+
 <body>
     <form method="POST" class="ragister">
-        <h2>Register</h2>
+        <h2 class="h2">Register</h2>
         Username: <input type="text" name="username" required><br><br>
         Password: <input type="password" name="password" required><br><br>
         Role:

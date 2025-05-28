@@ -239,16 +239,3 @@ nav ul li a{
     background:#b7b1b1;
     border-radius: 10px;
 }
-/*page register*/
-.ragister{
-    width:400px;
-    height:300px;
-    margin:10% auto;
-    background: #4ea2c1;
-}
-.ragister h2{
-    font-family: sans-serif;
-    font-size: 18px;
-    color:#333;
-    text-align: center;
-}
