@@ -16,6 +16,8 @@
                 <li><a href="./products.php">Products</a></li>
                 <li><a href="./Aboutus.php">About Us</a></li>
                 <li><a onclick="showHide()">Checkout</a></li>
+                <li><a href="#"><button id="login" type="button">Login</button></a></li>
+                <li><a href="#" id="profile">Myaccount</a></li>
             </ul>
         </nav>
     </div>
