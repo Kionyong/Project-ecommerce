@@ -7,19 +7,29 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!--navbar-->
     <div id="nav-bar">
-        <h1>Drinks</h1>
-        <nav>
-            <ul>
-                <li><a href="./home.php">Home</a></li>
-                <li><a href="./products.php">Products</a></li>
-                <li><a href="./Aboutus.php">About Us</a></li>
-                <li><a onclick="showHide()">Checkout</a></li>
-                <li><a href="#"><button id="login" type="button">Login</button></a></li>
-                <li><a href="#" id="profile">Myaccount</a></li>
-            </ul>
-        </nav>
+    <h1>Drinks</h1>
+    <nav>
+        <ul>
+            <li><a href="./home.php">Home</a></li>
+            <li><a href="./products.php">Products</a></li>
+            <li><a href="./Aboutus.php">About Us</a></li>
+            <li><a onclick="showHide()">Checkout</a></li>
+
+            <?php if (isset($_SESSION['username'])): ?>
+                <!-- If logged in -->
+                <li>
+                    <a href="<?php echo ($_SESSION['role'] == 'admin') ? './admin.php' : './user.php'; ?>" id="profile">
+                        MyAccount
+                    </a>
+                </li>
+                <li><a href="./logout.php"><button type="button">Logout</button></a></li>
+            <?php else: ?>
+                <!-- If not logged in -->
+                <li><a href="./login.php"><button type="button" id="login">Login</button></a></li>
+            <?php endif; ?>
+        </ul>
+    </nav>
     </div>
     <div class="checkout"  id="hide-show"><!--checkout ABA Paywy-->
         <div class="ch-box">
