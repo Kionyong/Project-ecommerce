@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             width: 300px;
         }
         input {
-            width: 100%;
+            width: 93%;
             padding: 8px;
             margin: 10px 0;
         }
@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <form class="login-form" method="POST">
-        <h2>Login</h2>
+        <h2 style="text-align: center;">Login</h2>
         <?php if (!empty($error)) echo "<p class='error'>$error</p>"; ?>
         <input type="text" name="username" placeholder="Username" required>
         <input type="password" name="password" placeholder="Password" required>
